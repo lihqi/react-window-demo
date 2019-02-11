@@ -4,7 +4,7 @@ import axios from "axios";
 let http = axios.create({
     headers: { "Content-Type": "application/json" },
     timeout: 60000,
-    baseURL: "https://lihuaqi.top:3000/mock/7/api/"
+    baseURL: "http://lihuaqi.top:3000/mock/7/api/"
 });
 
 // 设置 post、put 默认 Content-Type
